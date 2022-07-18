@@ -190,7 +190,7 @@ function renderGetItemsToDisplay() {
   if (state.selectedFilter === 'Guys') {
       itemsToDisplay = itemsToDisplay.filter(item => item.type === 'Guys')
   }
-  if (state.selectedFilter=== 'Sale') {
+  if (state.selectedFilter === 'Sale') {
       itemsToDisplay = itemsToDisplay.filter(item => item.discountedPrice !== undefined)
   }
   return itemsToDisplay
